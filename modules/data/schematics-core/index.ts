@@ -76,4 +76,4 @@ export { addPackageToPackageJson } from './utility/package';
 
 export { platformVersion } from './utility/libs-version';
 
-export { visitTSSourceFiles } from './utility/visit-utils';
+export { visitTSSourceFiles, visitNgModuleImports } from './utility/visitors';
